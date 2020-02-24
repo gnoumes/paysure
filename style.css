@@ -1,0 +1,299 @@
+h2 {
+    text-transform: initial;
+    letter-spacing: 0;
+}
+h3 {
+    text-transform: initial;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 0 0 8px;
+}
+
+header {
+  min-height: 600px;
+  height: 100%;
+  background-image: url("https://marketing-assets.tanda.co/wp-content/uploads/20200221145943/homepage-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 62px;
+}
+header p {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+button.blue {
+  -webkit-border-radius: 25px;
+  background: #3fafd7 !important;
+  border: #3fafd7 !important;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 10px 19px !important;
+  color: #fff;
+  font-family: Lato, sans-serif;
+  transition: 0.5s;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Lato;
+  text-transform: uppercase;
+}
+button.blue-outline {
+  -webkit-border-radius: 25px;
+  background: transparent !important ;
+  border: 1px #3fafd7 solid !important;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 10px 19px !important;
+  color: #3fafd7;
+  font-family: Lato, sans-serif;
+  transition: 0.5s;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Lato;
+  text-transform: uppercase;
+}
+
+.paysure .card-container {
+background-color: #F7F9FB;
+}
+.paysure .card-container h2 {
+  color: #032c57;
+  font-family: Lato;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 50px;
+  padding: 40px 0 0;
+  margin-bottom: 0;
+}
+.paysure .card-columns {
+    padding-top: 100px;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 3rem;
+    -moz-column-gap: 3rem;
+    column-gap: 3rem;
+    max-height: 1900px;
+  }
+.paysure .card {
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
+  border: 0;
+  padding: 40px;
+  margin: 3rem 0;
+  margin-bottom: 0 !important;
+}
+.paysure .card:first-child {
+  background-color: transparent;
+  box-shadow: none;
+  margin: 0 !important; 
+}
+.paysure .card img {
+  width: 90px;
+  height: 90px;
+  background-color: #032C57;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  display: block;
+  object-fit: none;
+}
+.paysure .card h3 {
+  color: #032c57;
+  font-family: Lato;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 34px;
+}
+.paysure .card p {
+  color: #708093;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 30px;
+}
+.paysure .card a {
+  color: #3fafd7;
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+.paysure .learnmore {
+    padding: 100px 0;
+}
+
+.paysure .pre-cta {
+    margin: 100px auto;
+}
+.paysure .pre-cta img{
+    width: 100%;
+    border-radius: 12px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center 20%;
+    margin: 40px 0;
+}
+.paysure .pre-cta h2{
+    color: #032C57;
+    font-family: Lato;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 50px;
+    text-align: center;
+    padding: 0;
+}
+.paysure .pre-cta h2+p{
+    color: #838383;
+    font-family: Lato;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+}
+.paysure .pre-cta h3{
+    color: #032C57;
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 34px;
+    text-align: center;
+}
+.paysure .pre-cta h3 + p{
+    color: #708093;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.paysure .cta {
+    text-align: center;
+    background-image: url(https://marketing-assets.tanda.co/wp-content/uploads/20200224131213/CTA-background.png);
+    background-size: cover;
+    background-color: #032C57;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 140px 0;
+}
+.paysure .cta h2{
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 50px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 40px;
+}
+.paysure .cta p{
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+.paysure hr{
+    max-width: 100%;
+}
+
+
+
+/* --------------------------------------------------OVERVIEW--------------------------------------------------*/
+
+.paysure.overview header {
+    background-image: url('https://marketing-assets.tanda.co/wp-content/uploads/20200224145706/07.jpg') ;
+}
+
+.paysure.overview header > div {
+    padding-left: 10vw;
+}
+.paysure.overview p{ 
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.paysure.overview h1 + div{ 
+   padding-left: 50px;
+}
+.paysure.overview header span,
+.paysure.overview h1 + div > p{ 
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 23px;
+    line-height: 28px;
+}
+
+.paysure.overview .overview-about img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 80px 0;
+}
+.paysure.overview .overview-about h2 {
+    color: #032C57;
+    font-family: Lato;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 50px;
+}
+.paysure.overview .overview-about strong {
+    display: block;
+    color: #708093;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 30px;
+}
+.paysure.overview .overview-about p {
+    color: #708093;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 30px;
+} 
+
+.bg-gradient-blue {
+    background: linear-gradient(90deg, #075B92 0%, #032E59 100%);
+    padding: 100px 0 120px;
+}
+.bg-gradient-blue h2{
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+
+
+@media (max-width: 992px) {
+
+    .paysure.overview header > div {
+        padding: 20px;
+    }
+    .paysure.overview h1 + div{ 
+        padding-left: 0px;
+     }
+
+    .paysure .card {
+        padding: 40px  20px;
+    }
+    .paysure .card-container h2 {
+        padding: 0;
+      }
+    .paysure .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        max-height: 100%;
+      }
+}
