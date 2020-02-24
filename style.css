@@ -284,12 +284,12 @@ background-color: #F7F9FB;
 }
 
 
-.paysure.paysure.overview .overview-how {
+.paysure.overview .overview-how {
     padding: 100px 0;
     background-color: #F7F9FB;
 }
 
-.paysure.paysure.overview .overview-how h2{
+.paysure.overview .overview-how h2{
     color: #032C57;
     font-family: Lato;
     font-size: 42px;
@@ -298,7 +298,7 @@ background-color: #F7F9FB;
     text-align: center;
     margin: 100px 0 80px;
 }
-.paysure.paysure.overview .overview-how .card p{
+.paysure.overview .overview-how .card p{
    margin: 0;
 }
 .paysure.paysure.overview .overview-how .card{
@@ -307,7 +307,7 @@ background-color: #F7F9FB;
    margin: 80px auto;
 }
 
-.paysure.paysure.overview .overview-how .card:after {
+.paysure.overview .overview-how .card:after {
     content: '';
     position: absolute;
     border-right: 1px black solid;
@@ -316,10 +316,10 @@ background-color: #F7F9FB;
     height: 80px;
     z-index: 0;
 } 
-.paysure.paysure.overview .overview-how .card + .card:after  {
+.paysure.overview .overview-how .card + .card:after  {
     border: none;
 }
-.paysure.paysure.overview .overview-how .card + .card + .card:after {
+.paysure.overview .overview-how .card + .card + .card:after {
     content: '';
     position: absolute;
     border-right: 1px black solid;
@@ -328,14 +328,101 @@ background-color: #F7F9FB;
     height: 80px;
     z-index: 0;
 } 
-.paysure.paysure.overview .overview-how h2 + .card,
-.paysure.paysure.overview .overview-how h2 + .card + .card + .card{
+.paysure.overview .overview-how h2 + .card,
+.paysure.overview .overview-how h2 + .card + .card + .card{
     margin-left: 0px;
 }
-.paysure.paysure.overview .overview-how h2 + .card+.card{
+.paysure.overview .overview-how h2 + .card+.card{
     margin-right: 0px;
 }
 
+/* --------------------------------------------------TEAM--------------------------------------------------*/
+
+.paysure.team {
+    background-color: #032E59;
+    background-image: url('https://marketing-assets.tanda.co/wp-content/uploads/20200224131213/CTA-background.png');
+}
+.paysure.team header {
+    background: transparent;
+}
+.paysure.team header span {
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 30px;
+    line-height: 36px;
+}
+.paysure.team .team-members {
+    margin-top: -150px;
+}
+.paysure.team .team-members > div > div > div h3 {
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 30.84px;
+    font-weight: bold;
+    line-height: 37px;
+    text-align: center;
+}
+.paysure.team .team-members > div > div > div p {
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 21.2px;
+    line-height: 26px;
+    text-align: center;
+}
+.paysure.team .team-members > div > div > div > div {
+    padding: 20px 0 10px;
+}
+.paysure.team .team-members > div > div > div {
+    overflow: hidden;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 19.27px 19.27px 9.64px 9.64px;
+    background-color: #0954A0;
+}
+.paysure.team .team-members > div > div:last-child > p:first-child{
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: normal;
+}
+.paysure.team .team-members > div > div {
+    margin: 60px 0;
+}
+.paysure.team .team-members > div > div:last-child > p{
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 30px;
+  
+}
+.paysure.team .team-members > div a{
+    background-color: #348EC3;
+    height: 50px;
+    width: 50px;
+    display: block;
+    position: absolute;
+    top: 35%;
+    border-radius: 50%;
+}
+.paysure.team .team-members > div a:last-child{
+    background-color: #348EC3;
+    height: 50px;
+    width: 50px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+}
+.paysure.team .team-members > div:nth-child(1) a,
+.paysure.team .team-members > div:nth-child(1) a:last-child{
+    left: 0;
+}
+
+.paysure.team .team-members > div:nth-child(2) a,
+.paysure.team .team-members > div:nth-child(2) a:last-child{
+    right: 0;
+}
 @media (max-width: 992px) {
 
     .paysure.overview header > div {
