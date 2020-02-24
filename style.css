@@ -75,6 +75,12 @@ background-color: #F7F9FB;
   padding: 40px 0 0;
   margin-bottom: 0;
 }
+.paysure .card-container p {
+    color: #708093;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 30px;
+}
 .paysure .card-columns {
     padding-top: 100px;
     -webkit-column-count: 2;
@@ -236,6 +242,10 @@ background-color: #F7F9FB;
     line-height: 28px;
 }
 
+.paysure.overview .overview-about {
+    margin: 80px auto;
+}
+
 .paysure.overview .overview-about img{
     width: 100%;
     border-radius: 10px;
@@ -274,14 +284,73 @@ background-color: #F7F9FB;
 }
 
 
+.paysure.paysure.overview .overview-how {
+    padding: 100px 0;
+    background-color: #F7F9FB;
+}
+
+.paysure.paysure.overview .overview-how h2{
+    color: #032C57;
+    font-family: Lato;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 50px;
+    text-align: center;
+    margin: 100px 0 80px;
+}
+.paysure.paysure.overview .overview-how .card p{
+   margin: 0;
+}
+.paysure.paysure.overview .overview-how .card{
+    position: relative;
+   max-width: 670px;
+   margin: 80px auto;
+}
+
+.paysure.paysure.overview .overview-how .card:after {
+    content: '';
+    position: absolute;
+    border-right: 1px black solid;
+    right: 100px;
+    bottom: -80px;
+    height: 80px;
+    z-index: 0;
+} 
+.paysure.paysure.overview .overview-how .card + .card:after  {
+    border: none;
+}
+.paysure.paysure.overview .overview-how .card + .card + .card:after {
+    content: '';
+    position: absolute;
+    border-right: 1px black solid;
+    right: 100px;
+    top: -80px;
+    height: 80px;
+    z-index: 0;
+} 
+.paysure.paysure.overview .overview-how h2 + .card,
+.paysure.paysure.overview .overview-how h2 + .card + .card + .card{
+    margin-left: 0px;
+}
+.paysure.paysure.overview .overview-how h2 + .card+.card{
+    margin-right: 0px;
+}
 
 @media (max-width: 992px) {
 
     .paysure.overview header > div {
-        padding: 20px;
+        padding: 80px 20px;
     }
     .paysure.overview h1 + div{ 
         padding-left: 0px;
+     }
+     .bg-gradient-blue h2  {
+         font-size: 30px;
+         line-height: 40px;
+     }
+    header h1 {
+        font-size: 40px;
+        line-height: 50px;
      }
 
     .paysure .card {
