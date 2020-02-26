@@ -469,7 +469,11 @@ button.white-outline {
   }
   .paysure.implementation .implementation-about-container {
     padding-top: 0 !important;
-    padding-bottom: 80px;
+    padding-bottom: 0 !important;
+  }
+  .paysure.implementation .implementation-section-icon {
+    margin-top: 80px;
+    margin-bottom: 80px;
   }
 }
 
