@@ -1,12 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
 h2 {
-    text-transform: initial;
-    letter-spacing: 0;
+  text-transform: initial;
+  letter-spacing: 0;
 }
 h3 {
-    text-transform: initial;
-    letter-spacing: 0;
-    text-align: left;
-    margin: 0 0 8px;
+  text-transform: initial;
+  letter-spacing: 0;
+  text-align: left;
+  margin: 0 0 8px;
 }
 
 header {
@@ -62,9 +64,24 @@ button.blue-outline {
   font-family: Lato;
   text-transform: uppercase;
 }
+button.white-outline {
+  -webkit-border-radius: 25px;
+  background: transparent !important ;
+  border: 1px #fff solid !important;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 10px 19px !important;
+  color: #fff;
+  font-family: Lato, sans-serif;
+  transition: 0.5s;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Lato;
+  text-transform: uppercase;
+}
 
 .paysure .card-container {
-background-color: #F7F9FB;
+  background-color: #f7f9fb;
 }
 .paysure .card-container h2 {
   color: #032c57;
@@ -76,21 +93,21 @@ background-color: #F7F9FB;
   margin-bottom: 0;
 }
 .paysure .card-container p {
-    color: #708093;
-    font-family: Lato;
-    font-size: 20px;
-    line-height: 30px;
+  color: #708093;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 30px;
 }
 .paysure .card-columns {
-    padding-top: 100px;
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-    -webkit-column-gap: 3rem;
-    -moz-column-gap: 3rem;
-    column-gap: 3rem;
-    max-height: 1900px;
-  }
+  padding-top: 100px;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 3rem;
+  -moz-column-gap: 3rem;
+  column-gap: 3rem;
+  max-height: 1900px;
+}
 .paysure .card {
   border-radius: 10px;
   background-color: #ffffff;
@@ -103,12 +120,12 @@ background-color: #F7F9FB;
 .paysure .card:first-child {
   background-color: transparent;
   box-shadow: none;
-  margin: 0 !important; 
+  margin: 0 !important;
 }
 .paysure .card img {
   width: 90px;
   height: 90px;
-  background-color: #032C57;
+  background-color: #032c57;
   border-radius: 50%;
   margin-bottom: 20px;
   display: block;
@@ -134,322 +151,407 @@ background-color: #F7F9FB;
   line-height: 22px;
 }
 
-
 .paysure .learnmore {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 .paysure .pre-cta {
-    margin: 100px auto;
+  margin: 100px auto;
 }
-.paysure .pre-cta img{
-    width: 100%;
-    border-radius: 12px;
-    height: 250px;
-    object-fit: cover;
-    object-position: center 20%;
-    margin: 40px 0;
+.paysure .pre-cta img {
+  width: 100%;
+  border-radius: 12px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center 20%;
+  margin: 40px 0;
 }
-.paysure .pre-cta h2{
-    color: #032C57;
-    font-family: Lato;
-    font-size: 42px;
-    font-weight: 900;
-    line-height: 50px;
-    text-align: center;
-    padding: 0;
+.paysure .pre-cta h2 {
+  color: #032c57;
+  font-family: Lato;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 50px;
+  text-align: center;
+  padding: 0;
 }
-.paysure .pre-cta h2+p{
-    color: #838383;
-    font-family: Lato;
-    font-size: 22px;
-    line-height: 30px;
-    text-align: center;
+.paysure .pre-cta h2 + p {
+  color: #838383;
+  font-family: Lato;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
 }
-.paysure .pre-cta h3{
-    color: #032C57;
-    font-family: Lato;
-    font-size: 28px;
-    font-weight: 900;
-    line-height: 34px;
-    text-align: center;
+.paysure .pre-cta h3 {
+  color: #032c57;
+  font-family: Lato;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 34px;
+  text-align: center;
 }
-.paysure .pre-cta h3 + p{
-    color: #708093;
-    font-family: Lato;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
+.paysure .pre-cta h3 + p {
+  color: #708093;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
 }
 
 .paysure .cta {
-    text-align: center;
-    background-image: url(https://marketing-assets.tanda.co/wp-content/uploads/20200224131213/CTA-background.png);
-    background-size: cover;
-    background-color: #032C57;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 140px 0;
+  text-align: center;
+  background-image: url(https://marketing-assets.tanda.co/wp-content/uploads/20200224131213/CTA-background.png);
+  background-size: cover;
+  background-color: #032c57;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 140px 0;
 }
-.paysure .cta h2{
-    color: #FFFFFF;
-    font-family: Lato;
-    font-size: 42px;
-    font-weight: 900;
-    line-height: 50px;
-    text-align: center;
-    max-width: 900px;
-    margin: 0 auto 40px;
+.paysure .cta h2 {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 50px;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 40px;
 }
-.paysure .cta p{
-    color: #FFFFFF;
-    font-family: Lato;
-    font-size: 22px;
-    line-height: 30px;
-    text-align: center;
-    margin-top: -20px;
-    margin-bottom: 40px;
-}
-
-.paysure hr{
-    max-width: 100%;
+.paysure .cta p {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 40px;
 }
 
-
+.paysure hr {
+  max-width: 100%;
+}
 
 /* --------------------------------------------------OVERVIEW--------------------------------------------------*/
 
 .paysure.overview header {
-    background-image: url('https://marketing-assets.tanda.co/wp-content/uploads/20200224145706/07.jpg') ;
+  background-image: url("https://marketing-assets.tanda.co/wp-content/uploads/20200224145706/07.jpg");
 }
 
 .paysure.overview header > div {
-    padding-left: 10vw;
+  padding-left: 10vw;
 }
-.paysure.overview p{ 
-    margin-bottom: 30px;
-    margin-top: 30px;
+.paysure.overview p {
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
-.paysure.overview h1 + div{ 
-   padding-left: 50px;
+.paysure.overview h1 + div {
+  padding-left: 50px;
 }
 .paysure.overview header span,
-.paysure.overview h1 + div > p{ 
-    color: #FFFFFF;
-    font-family: Lato;
-    font-size: 23px;
-    line-height: 28px;
+.paysure.overview h1 + div > p {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 23px;
+  line-height: 28px;
 }
 
 .paysure.overview .overview-about {
-    margin: 80px auto;
+  margin: 80px auto;
 }
 
-.paysure.overview .overview-about img{
-    width: 100%;
-    border-radius: 10px;
-    margin: 80px 0;
+.paysure.overview .overview-about img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 80px 0;
 }
 .paysure.overview .overview-about h2 {
-    color: #032C57;
-    font-family: Lato;
-    font-size: 42px;
-    font-weight: 900;
-    line-height: 50px;
+  color: #032c57;
+  font-family: Lato;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 50px;
 }
 .paysure.overview .overview-about strong {
-    display: block;
-    color: #708093;
-    font-family: Lato;
-    font-size: 20px;
-    line-height: 30px;
+  display: block;
+  color: #708093;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 30px;
 }
 .paysure.overview .overview-about p {
-    color: #708093;
-    font-family: Lato;
-    font-size: 20px;
-    line-height: 30px;
-} 
+  color: #708093;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 30px;
+}
 
 .bg-gradient-blue {
-    background: linear-gradient(90deg, #075B92 0%, #032E59 100%);
-    padding: 100px 0 120px;
+  background: linear-gradient(90deg, #075b92 0%, #032e59 100%);
+  padding: 100px 0 120px;
 }
-.bg-gradient-blue h2{
-    color: #FFFFFF;
-    font-family: Lato;
-    font-size: 42px;
-    line-height: 50px;
+.bg-gradient-blue h2 {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 42px;
+  line-height: 50px;
 }
-
 
 .paysure.overview .overview-how {
-    padding: 100px 0;
-    background-color: #F7F9FB;
+  padding: 100px 0;
+  background-color: #f7f9fb;
 }
 
-.paysure.overview .overview-how h2{
-    color: #032C57;
-    font-family: Lato;
-    font-size: 42px;
-    font-weight: 900;
-    line-height: 50px;
-    text-align: center;
-    margin: 100px 0 80px;
+.paysure.overview .overview-how h2 {
+  color: #032c57;
+  font-family: Lato;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 50px;
+  text-align: center;
+  margin: 100px 0 80px;
 }
-.paysure.overview .overview-how .card p{
-   margin: 0;
+.paysure.overview .overview-how .card p {
+  margin: 0;
 }
-.paysure.paysure.overview .overview-how .card{
-    position: relative;
-   max-width: 670px;
-   margin: 80px auto;
+.paysure.paysure.overview .overview-how .card {
+  position: relative;
+  max-width: 670px;
+  margin: 80px auto;
 }
 
 .paysure.overview .overview-how .card:after {
-    content: '';
-    position: absolute;
-    border-right: 1px black solid;
-    right: 100px;
-    bottom: -80px;
-    height: 80px;
-    z-index: 0;
-} 
-.paysure.overview .overview-how .card + .card:after  {
-    border: none;
+  content: "";
+  position: absolute;
+  border-right: 1px black solid;
+  right: 100px;
+  bottom: -80px;
+  height: 80px;
+  z-index: 0;
+}
+.paysure.overview .overview-how .card + .card:after {
+  border: none;
 }
 .paysure.overview .overview-how .card + .card + .card:after {
-    content: '';
-    position: absolute;
-    border-right: 1px black solid;
-    right: 100px;
-    top: -80px;
-    height: 80px;
-    z-index: 0;
-} 
-.paysure.overview .overview-how h2 + .card,
-.paysure.overview .overview-how h2 + .card + .card + .card{
-    margin-left: 0px;
+  content: "";
+  position: absolute;
+  border-right: 1px black solid;
+  right: 100px;
+  top: -80px;
+  height: 80px;
+  z-index: 0;
 }
-.paysure.overview .overview-how h2 + .card+.card{
-    margin-right: 0px;
+.paysure.overview .overview-how h2 + .card,
+.paysure.overview .overview-how h2 + .card + .card + .card {
+  margin-left: 0px;
+}
+.paysure.overview .overview-how h2 + .card + .card {
+  margin-right: 0px;
 }
 
 /* --------------------------------------------------TEAM--------------------------------------------------*/
 
 .paysure.team {
-    background-color: #032E59;
-    background-image: url('https://marketing-assets.tanda.co/wp-content/uploads/20200224131213/CTA-background.png');
+  background-color: #032e59;
+  background-image: url("https://marketing-assets.tanda.co/wp-content/uploads/20200224131213/CTA-background.png");
 }
 .paysure.team header {
-    background: transparent;
+  background: transparent;
 }
 .paysure.team header span {
-    color: #FFFFFF;
-    font-family: Lato;
-    font-size: 30px;
-    line-height: 36px;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 30px;
+  line-height: 36px;
 }
 .paysure.team .team-members {
-    margin-top: -150px;
+  margin-top: -150px;
 }
 .paysure.team .team-members > div > div > div h3 {
-    color: #FFFFFF;
-    font-family: Lato;
-    font-size: 30.84px;
-    font-weight: bold;
-    line-height: 37px;
-    text-align: center;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 30.84px;
+  font-weight: bold;
+  line-height: 37px;
+  text-align: center;
 }
 .paysure.team .team-members > div > div > div p {
-    color: #FFFFFF;
-    font-family: Lato;
-    font-size: 21.2px;
-    line-height: 26px;
-    text-align: center;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 21.2px;
+  line-height: 26px;
+  text-align: center;
 }
 .paysure.team .team-members > div > div > div > div {
-    padding: 20px 0 10px;
+  padding: 20px 0 10px;
 }
 .paysure.team .team-members > div > div > div {
-    overflow: hidden;
-    max-width: 400px;
-    margin: auto;
-    border-radius: 19.27px 19.27px 9.64px 9.64px;
-    background-color: #0954A0;
+  overflow: hidden;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 19.27px 19.27px 9.64px 9.64px;
+  background-color: #0954a0;
 }
-.paysure.team .team-members > div > div:last-child > p:first-child{
-    color: #FFFFFF;
-    font-family: Lato;
-    font-size: 32px;
-    line-height: 39px;
-    font-weight: normal;
+.paysure.team .team-members > div > div:last-child > p:first-child {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 32px;
+  line-height: 39px;
+  font-weight: normal;
 }
 .paysure.team .team-members > div > div {
-    margin: 60px 0;
+  margin: 60px 0;
 }
-.paysure.team .team-members > div > div:last-child > p{
-    color: #FFFFFF;
-    font-family: Lato;
-    font-size: 20px;
-    line-height: 30px;
-  
+.paysure.team .team-members > div > div:last-child > p {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 30px;
 }
-.paysure.team .team-members > div a{
-    background-color: #348EC3;
-    height: 50px;
-    width: 50px;
-    display: block;
-    position: absolute;
-    top: 35%;
-    border-radius: 50%;
+.paysure.team .team-members > div a {
+  background-color: #348ec3;
+  height: 50px;
+  width: 50px;
+  display: block;
+  position: absolute;
+  top: 35%;
+  border-radius: 50%;
 }
-.paysure.team .team-members > div a:last-child{
-    background-color: #348EC3;
-    height: 50px;
-    width: 50px;
-    display: block;
-    position: absolute;
-    top: 50%;
-    border-radius: 50%;
+.paysure.team .team-members > div a:last-child {
+  background-color: #348ec3;
+  height: 50px;
+  width: 50px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
 }
 .paysure.team .team-members > div:nth-child(1) a,
-.paysure.team .team-members > div:nth-child(1) a:last-child{
-    left: 0;
+.paysure.team .team-members > div:nth-child(1) a:last-child {
+  left: 0;
 }
 
 .paysure.team .team-members > div:nth-child(2) a,
-.paysure.team .team-members > div:nth-child(2) a:last-child{
-    right: 0;
+.paysure.team .team-members > div:nth-child(2) a:last-child {
+  right: 0;
 }
 @media (max-width: 992px) {
+  .paysure.overview header > div {
+    padding: 80px 20px;
+  }
+  .paysure.overview h1 + div {
+    padding-left: 0px;
+  }
+  .bg-gradient-blue h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  header h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
 
-    .paysure.overview header > div {
-        padding: 80px 20px;
-    }
-    .paysure.overview h1 + div{ 
-        padding-left: 0px;
-     }
-     .bg-gradient-blue h2  {
-         font-size: 30px;
-         line-height: 40px;
-     }
-    header h1 {
-        font-size: 40px;
-        line-height: 50px;
-     }
+  .paysure .card {
+    padding: 40px 20px;
+  }
+  .paysure .card-container h2 {
+    padding: 0;
+  }
+  .paysure .card-columns {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    max-height: 100%;
+  }
+  .paysure.implementation .implementation-section {
+    padding-top: 80px;
+    background-color: #f7f9fb;
+  }
+  .paysure.implementation .implementation-about-container {
+    padding-top: 0 !important;
+    padding-bottom: 80px;
+  }
+}
 
-    .paysure .card {
-        padding: 40px  20px;
-    }
-    .paysure .card-container h2 {
-        padding: 0;
-      }
-    .paysure .card-columns {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        max-height: 100%;
-      }
+/* --------------------------------------------------IMPLEMENTATION--------------------------------------------------*/
+header .header-implementation {
+  background-image: url("https://marketing-assets.tanda.co/wp-content/uploads/20200224161643/implementation-header.jpg");
+}
+
+header .sub-header {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.paysure .implementation {
+  margin: 100px auto;
+}
+
+.paysure .implementation-icons {
+  height: 100px;
+  width: auto;
+}
+
+.paysure .implementation p {
+  color: #708093;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.paysure.implementation h3 {
+  color: #032c57;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 39px;
+}
+
+.paysure.implementation .implementation-section-blue {
+  background-color: #f7f9fb;
+}
+
+.paysure.implementation .implementation-about-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.paysure.implementation .implementation-about-img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 80px 0;
+}
+
+.paysure.implementation .implementation-about h2 {
+  color: #032c57;
+  font-family: Lato;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 50px;
+}
+
+.paysure.implementation .implementation-about strong {
+  display: block;
+  color: #708093;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.paysure.implementation .implementation-about p {
+  color: #708093;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.paysure.implementation .implementation-line {
+  box-sizing: border-box;
+  height: 158px;
+  width: 1px;
+  border: 1px solid #708093;
 }
