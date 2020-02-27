@@ -467,13 +467,8 @@ button.white-outline {
     padding-top: 80px;
     background-color: #f7f9fb;
   }
-  .paysure.implementation .implementation-about-container {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-  }
-  .paysure.implementation .implementation-section-icon {
-    margin-top: 80px;
-    margin-bottom: 80px;
+  .paysure.implementation .implementation-cta > div:last-child {
+    border-right: none !important;
   }
 }
 
@@ -525,8 +520,8 @@ header .sub-header {
 }
 
 .paysure.implementation .implementation-about-container {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .paysure.implementation .implementation-about-img {
@@ -558,9 +553,11 @@ header .sub-header {
   line-height: 30px;
 }
 
-.paysure.implementation .implementation-line {
-  box-sizing: border-box;
-  height: 158px;
-  width: 1px;
-  border: 1px solid #708093;
+.paysure.implementation .implementation-cta {
+  max-width: 800px;
+  margin: auto;
+}
+
+.paysure.implementation .implementation-cta > div:last-child {
+  border-right: 1px solid #708093;
 }
