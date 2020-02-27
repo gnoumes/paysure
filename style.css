@@ -598,12 +598,8 @@ button.white-outline {
 }
 
 .paysure.calc .cta {
-  padding-bottom: 80px;
-  padding-top: 80px;
-}
-
-.paysure.calc .cta {
   text-align: center;
+  background-image: none;
   background-size: cover;
   background-color: #f7f9fb;
   background-repeat: no-repeat;
